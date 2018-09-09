@@ -173,5 +173,24 @@
 # print(sum)
 
 # while + break 提前跳出循环
+# n = 1
+# while n < 100:
+#   n = n + 3
+#   if n > 33:
+#     print('到此为止啦!')
+#     break # break就直接跳出了 以下都不会执行
+#   print(n)
 
 # while + continue 跳过当次的循环
+# 奇偶数筛选的demo
+# n = 1
+# array = []
+# while n < 100:
+#   if n % 2 == 0: # 筛选偶数
+#     n = n + 1
+#     continue
+#   array.append(n)
+#   n = n + 1
+#   print(n)
+# print(array)
+
